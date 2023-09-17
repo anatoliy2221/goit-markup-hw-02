@@ -45,6 +45,7 @@ body {
     text-transform: capitalize;
 }
 .article-title {
+    color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -106,7 +107,11 @@ body {
 /*section our team*/
 .our-team-section {
     background-color: #F4F4FD;
-    }
+}
+.our-team-item {
+    background-color: #FFFFFF;
+    list-style-type: none;
+}
 
 /*footer*/
 .page-footer {
