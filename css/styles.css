@@ -13,7 +13,8 @@ body {
     text-decoration: none;
     letter-spacing: 0.02em;
 }
-.link:hover {
+.link:hover,
+.link:focus {
     color: #404BBF;
     text-decoration: underline;
 }
@@ -25,12 +26,11 @@ body {
     text-decoration: none;
     letter-spacing: 0.02em;
 }
-.link-nav:hover {
+.link-nav:hover,
+.link-nav:focus
+ {
     color: #404BBF;
     text-decoration: underline;
-}
-.link-nav:focus {
-    color: #404BBF;
 }
 .item {
     list-style-type: none;
